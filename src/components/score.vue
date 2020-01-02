@@ -54,6 +54,7 @@ export default {
   created(){
     this.computedScore();
     this.trunTips();
+    document.body.style.backgroundImage = 'url('+ require('../images/4-1.jpg') +')';
   }
 }
 </script>

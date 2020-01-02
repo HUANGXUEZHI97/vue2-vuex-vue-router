@@ -85,8 +85,14 @@ export default {
 			  alert("您还没有选择答案哦！");
 		  }
 		}
+	},
+	created(){
+		//初始化信息
+		if(this.fatherComponent == 'home'){
+			this.initializeData();
+			document.body.style.backgroundImage = 'url('+ require('../images/1-1.jpg') +')';
+		}
 	}
-
 }
 </script>
 
