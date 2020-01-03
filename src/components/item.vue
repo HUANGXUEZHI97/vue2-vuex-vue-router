@@ -15,5 +15,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+ div{
+   background-color: #fff;color:red;
+ }
 </style>
