@@ -10,7 +10,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "qs": "^6.9.1",
+    "qs": "^6.9.7",
     "vant": "^2.4.1",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
